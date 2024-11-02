@@ -1,0 +1,98 @@
+/* Página de Metodología */
+.metodologia h1 {
+    font-size: 36px;
+    color: #FF7043; /* Color naranja para la sección de metodología */
+    margin-bottom: 20px;
+}
+
+.aspectos-clave {
+    background-color: #ffe0b2;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.aspectos-clave h2 {
+    font-size: 24px;
+    color: #e64a19;
+}
+
+.aspectos-clave p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+/* Sección del portafolio */
+.portfolio {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.portfolio h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+/* Contenedor de los proyectos en columnas */
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Estilo de cada proyecto */
+.project {
+    background-color: #fff;
+    width: calc(50% - 10px); /* Dos columnas de 50%, con 10px de margen entre ellas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: scale(1.05); /* Efecto hover para aumentar un poco el tamaño */
+}
+
+.project img {
+    width: 75%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Estilo de la información del proyecto */
+.project-info {
+    padding: 20px;
+    text-align: left;
+}
+
+.project-info h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.project-info p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Estilo del botón */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #388E3C;
+}
