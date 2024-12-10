@@ -9,7 +9,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background: url('/Imágenes/Backgroundprincipal.svg') no-repeat center center fixed;
+    background: url('Backgroundprincipal.svg') no-repeat center center fixed;
     background-size: cover;
     color: #333;
     margin: 0;
