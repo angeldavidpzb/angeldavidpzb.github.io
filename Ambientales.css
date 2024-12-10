@@ -1,5 +1,30 @@
 
 /* Sección del portafolio */
+header {
+    background: rgba(255, 255, 255, 0.4); /* Fondo transparente y claro */
+    backdrop-filter: blur(20px); /* Desenfoque */
+    padding: 10px 0;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
 .portfolio {
     text-align: center;
     margin: 40px 0;
